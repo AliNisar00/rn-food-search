@@ -16,7 +16,7 @@ const SearchBar = (props) => {
                 onEndEditing={() => {props.onTermSubmit()}}
             />
         </View>
-    )
+    );
 };
 
 const styles = StyleSheet.create({

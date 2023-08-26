@@ -26,7 +26,6 @@ export default () => {
     // Call searchApi when component is first rendered to
     // make an initial search request.
     // searchApi('Chinese')
-
     // Instead, use the useEffect() Hook
     useEffect(() => {
         searchApi('Chinese');
